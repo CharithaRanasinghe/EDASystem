@@ -1,8 +1,6 @@
 # Python EDA – Analog Circuit Designer
 
-A modular Electronic Design Automation (EDA) system that automatically
-designs analog circuits from user specifications, optimises component
-values, and generates LTspice-compatible netlists.
+This tool allows the user to input requirement-parameters for 3 different types of electronic circuits, where the system is able to design the component values for the circuits according to the requirement, for the selected electronic circuit type. The output is set to LTSpice to where the desigened circuit is simulated and the actual results are analysed visually.
 
 ---
 
