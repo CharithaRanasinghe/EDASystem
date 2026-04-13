@@ -1,0 +1,8 @@
+{
+  "circuit_type": "rc_filter",
+  "params": {
+    "cutoff_frequency": 3300,
+    "filter_type": "low_pass",
+    "load_resistance": 10000
+  }
+}

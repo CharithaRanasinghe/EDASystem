@@ -1,0 +1,11 @@
+{
+  "circuit_type": "voltage_divider_bias",
+  "params": {
+    "vcc": 12.0,
+    "gain": 100.0,
+    "load_resistance": 10000,
+    "source_resistance": 600,
+    "stability_factor": 10,
+    "frequency": 1000
+  }
+}
