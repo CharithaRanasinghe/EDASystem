@@ -215,6 +215,8 @@ your PATH or in its default install location.
 <img width="1362" height="713" alt="Screenshot 2026-04-13 141216" src="https://github.com/user-attachments/assets/7e3866da-0e66-4f4a-b1ef-767433645813" />
 ---
 ## Clone
+
 ```
 git clone https://github.com/CharithaRanasinghe/EDASystem.git && cd EDASystem
+
 ```
