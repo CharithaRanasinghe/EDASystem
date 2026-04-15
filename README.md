@@ -4,16 +4,6 @@ This tool allows the user to input requirement-parameters for 3 different types 
 
 ---
 
-## Quick Start
-
-```bash
-pip install numpy scipy
-python main.py                          # interactive mode
-python main.py --batch examples/ce_example.json   # batch mode
-```
-
----
-
 ## Supported Circuit Types
 
 | Key                   | Description                              |
@@ -46,65 +36,6 @@ python main.py --batch examples/ce_example.json   # batch mode
 ```
 
 The system asks **only the parameters relevant** to the chosen circuit.
-
----
-
-## Batch Mode
-
-Supply a JSON spec file:
-
-```json
-{
-  "circuit_type": "common_emitter",
-  "params": {
-    "vcc": 12.0,
-    "gain": 80.0,
-    "load_resistance": 10000,
-    "frequency": 1000
-  }
-}
-```
-
-```bash
-python main.py --batch examples/ce_example.json --output ./output
-```
-
----
-
-## Example Results
-
-### Common-Emitter Amplifier (Av = 80 V/V target)
-
-```
-  Component Values:
-    RC    =  6.8 kΩ
-    RE    =  4.7 kΩ
-    R1    =  180 kΩ
-    R2    =  62 kΩ
-    CE    =  16.3 µF
-    CC1   =  342 nF
-    CC2   =  100 nF
-
-  Operating Point:
-    IC    =  0.505 mA
-    VCE   =  6.19 V    ← well centred for maximum swing
-    gm    =  19.5 mS
-
-  Performance:
-    Av    =  79.1 V/V  (target 80, error 1.1%)
-    Rin   =  4.6 kΩ
-```
-
-### RC Low-Pass Filter (fc = 3300 Hz target)
-
-```
-  Component Values:
-    R  =  2.2 kΩ
-    C  =  22 nF
-
-  Performance:
-    fc =  3288 Hz  (target 3300, error 0.4%)
-```
 
 ---
 
