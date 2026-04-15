@@ -220,5 +220,6 @@ your PATH or in its default install location.
 
 ```
 git clone https://github.com/CharithaRanasinghe/EDASystem.git && cd EDASystem
+main.py
 
 ```
